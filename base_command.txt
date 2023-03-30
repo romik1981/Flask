@@ -1,0 +1,77 @@
+shift+ctr+p - создание виртуального оеружения VSC
+
+source .venv/bin/activate - активация виртуального окружения
+
+pip install -r requirements.txt - установка зависимостей из файла requirements.txt
+
+deactivate - деактивация виртуального окружения
+
+python3 manage.py runserver 0.0.0.0:8000 - запуск сервера
+
+sudo chmod -R 777 ../ - установка прав папке на уровень выше
+
+python3 manage.py createsuperuser - создание супер пользователя
+
+python3 manage.py makemigrations - создание миграций
+
+python3 manage.py migrate - проведение миграций
+
+git add . && git commit -am "Initial commit" - создаём комментарий
+
+git push - отправка коммитов на github
+
+pip install --no-cache-dir -U isort black autoflake - установка зависимостей по форматированию кода
+
+autoflake -i -r --remove-all-unused-imports . && isort . && black -l 120 . - форматирование кода
+
+touch ./.git/hooks/pre-commit && chmod +x ./.git/hooks/pre-commit - создание файла прекоммита
+
+python3 manage.py startapp ToDoapp - создание приложения в проекте
+
+npm install react-scripts - установка запускающего скрипта node_js
+
+npm install - установка менеджера
+
+npm uninstall react-router-dom - удаление react-router-dom
+
+npm install react-router-dom@5.2.0 - установка react-router-dom версия 5.2.0
+
+npm i - установка зависимостей node_js из файла package.json
+
+npm install universal-cookie - установка universal-cookie
+
+npm run start - запуск локального сервера React
+
+npm run build - сборка проекта для frontend части
+
+pip install djangorestframework-camel-case - установка пакета djangorestframework-camel-case
+
+pip install djangorestframework-jwt - установка JWT
+
+pip install djangorestframework-simplejwt - установка простого JWT
+
+python3 manage.py test users.tests.TestUserViewSet.test_get_user - запуск теста
+
+pip install -U drf-yasg - установка библиотеки для документирования проекта
+
+pip list > requirements.txt - сохранение пакетов в файл requirements.txt
+
+pip install graphene - установка GRAPHQL
+
+pip install graphene_django - установка graphene_django
+
+docker pull postgres - установка баз данных
+
+docker pull adminer - установка администратора
+
+docker-compose up --build - сборка контейнера из файла
+
+docker stop - остановка контейнера
+
+sudo docker rm [CONTINER ID] - удаление контейнера по его ID
+
+docker-compose up --build --remove-orphans - сборка контейнера с удалением ранее созданных контейнеров
+
+&& python manage.py createusers 5 - создание супер пользователя и пользователей в базе данных при сборке контейнеров
+
+pip install Flask - установка пакета Flask
