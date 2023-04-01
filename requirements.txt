@@ -1,5 +1,17 @@
-Flask==1.1.4
-Werkzeug==0.16.1
-python-dotenv==0.17.1
-click==7.1.2
-Flask-SQLAlchemy==2.5.1
+Package           Version
+----------------- -------
+click             7.1.2
+Flask             1.1.4
+Flask-Login       0.6.2
+Flask-SQLAlchemy  2.5.1
+greenlet          2.0.2
+itsdangerous      1.1.0
+Jinja2            2.11.3
+MarkupSafe        2.1.2
+pip               23.0.1
+pkg_resources     0.0.0
+python-dotenv     0.17.1
+setuptools        44.0.0
+SQLAlchemy        2.0.7
+typing_extensions 4.5.0
+Werkzeug          1.0.1
