@@ -6,6 +6,12 @@ from blog.models import User
 
 user = Blueprint('user', __name__, url_prefix='/users', static_folder='../static')
 
+# USERS = {
+#     1: {"name": "Ivan"},
+#     2: {"name": "Jon"},
+#     3: {"name": "Mary"}
+# }
+
 
 @user.route('/')
 def user_list():
@@ -27,3 +33,11 @@ def profile(pk: int):
         'users/profile.html',
         user=selected_user,
     )
+
+
+# def get_user_name(pk: int):
+#     if pk in USERS:
+#         user_name = USERS[pk]["name"]
+#     else:
+#         raise NotFound("User id:{}, not found".format(pk))
+#     return user_name

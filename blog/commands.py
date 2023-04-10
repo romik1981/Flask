@@ -18,9 +18,11 @@ def init_db():
 def create_init_user():
     from blog.models import User
     from wsgi import app
+    email_in = input('email: ')
+    password_in = input('password: ')
 
     with app.app_context():
         db.session.add(
-            User(email='name@example.com', password=generate_password_hash('test123'))
+            User(email=email_in, password=generate_password_hash(password_in))
         )
         db.session.commit()
