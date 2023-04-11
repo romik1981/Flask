@@ -34,12 +34,12 @@ def create_init_user():
     #print("done! created users: ", name_in)
 
 
-@click.command('create-superusers')
+@click.command('create-superuser')
 def create_superuser():
     """
     Run in your terminal:
     flask create-users
-    > done! created users: <User #1 'admin'> <User #2 'james'>
+    > done! created users: <User #1 'admin'>
     """
     from blog.models import User
     
