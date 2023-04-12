@@ -21,6 +21,9 @@ def create_init_user():
     
     from blog.models import User
     from wsgi import app
+    
+    email_in = input('email: ')
+    password_in = input('password: ')
 
     name_in = input('name: ')
     email_in = input('email: ')
