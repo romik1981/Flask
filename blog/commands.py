@@ -16,12 +16,14 @@ from blog.extensions import db
 #     print('done!')
 
 
+
 @click.command('create-init-user')
 def create_init_user():
     
     from blog.models import User
     from wsgi import app
     
+
 
     first_name_in = input('first_name: ')
     last_name_in = input('last_name: ')

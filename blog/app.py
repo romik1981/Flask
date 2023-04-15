@@ -20,6 +20,7 @@ def register_extensions(app):
     migrate.init_app(app, db, compare_type=True)
     csrf.init_app(app)
 
+
     login_manager.login_view = 'auth.login'
     login_manager.init_app(app)
 
