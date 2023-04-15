@@ -15,6 +15,8 @@ from blog.extensions import db
 
 #     print('done!')
 
+    print('done!')
+
 
 @click.command('create-init-user')
 def create_init_user():
