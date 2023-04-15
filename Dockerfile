@@ -17,7 +17,7 @@ RUN pip install SQLAlchemy==1.3.24
 RUN pip install Flask-COMBO-JSONAPI==1.1.0
 RUN pip install alembic==1.10.2
 RUN pip install apispec==4.7.1
-RUN pip install certifi==2022
+RUN pip install certifi==2022.12.7
 RUN pip install WTForms==2.3.3
 RUN pip install Flask-WTF==0.15.1
 RUN pip install email-validator==1.1.2
