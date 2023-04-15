@@ -27,7 +27,6 @@ def register():
             first_name=form.first_name.data,
             last_name=form.last_name.data,
             password=generate_password_hash(form.password.data),
-            is_staff=form.is_staff.data,
         )
 
         db.session.add(_user)
@@ -54,7 +53,7 @@ def user_list():
 @user.route('/<int:pk>')
 @login_required
 def profile(pk: int):
-    selected_user = User.query.filter_by(id=pk).one_or_none()
+    selected_user: User = User.query.filter_by(id=pk).one_or_none()
     if not selected_user:
         raise NotFound(f"User #{pk} doesn't exist!")
 
