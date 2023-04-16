@@ -20,6 +20,7 @@ def register_extensions(app):
     migrate.init_app(app, db, compare_type=True)
     csrf.init_app(app)
 
+
     login_manager.login_view = 'auth.login'
     login_manager.init_app(app)
 
@@ -45,3 +46,4 @@ def register_blueprints(app: Flask):
 def register_commands(app: Flask):
     # app.cli.add_command(commands.init_db)
     app.cli.add_command(commands.create_init_user)
+    app.cli.add_command(commands.create_init_tags)
