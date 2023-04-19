@@ -21,6 +21,7 @@ RUN pip install certifi==2022.12.7
 RUN pip install WTForms==2.3.3
 RUN pip install Flask-WTF==0.15.1
 RUN pip install email-validator==1.1.2
+RUN pip install Flask-Admin==1.5.8
 #--no-cache -r requirements.txt
 
 COPY . .

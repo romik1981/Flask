@@ -25,12 +25,15 @@ def create_init_user():
     from wsgi import app
     
 
-
     first_name_in = input('first_name: ')
     last_name_in = input('last_name: ')
     email_in = input('email: ')
     password_in = input('password: ')
+    # is_staff_in = input('is_staff: ')
     
+    # if is_staff_in == '1':
+    #     is_staf_in = True
+    # else: is_staff_in = False
 
     with app.app_context():
         db.session.add(
@@ -52,3 +55,4 @@ def create_init_tags():
             db.session.add(Tag(name=item))
         db.session.commit()
     click.echo(f'Created tags: {", ".join(tags)}')
+ 
