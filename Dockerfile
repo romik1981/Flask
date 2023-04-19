@@ -14,7 +14,7 @@ RUN pip install psycopg2-binary==2.8.6
 RUN pip install MarkupSafe==2.0.1
 RUN pip install Flask-Migrate==3.0.0
 RUN pip install SQLAlchemy==1.3.24
-RUN pip install Flask-COMBO-JSONAPI==1.1.0
+RUN pip install Flask-COMBO-JSONAPI==1.0.7
 RUN pip install alembic==1.10.2
 RUN pip install apispec==4.7.1
 RUN pip install certifi==2022.12.7
