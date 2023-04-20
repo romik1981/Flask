@@ -22,6 +22,8 @@ RUN pip install WTForms==2.3.3
 RUN pip install Flask-WTF==0.15.1
 RUN pip install email-validator==1.1.2
 RUN pip install Flask-Admin==1.5.8
+RUN pip install PyYAML==5.4.1
+RUN pip install ComboJSONAPI==1.1.1
 #--no-cache -r requirements.txt
 
 COPY . .
