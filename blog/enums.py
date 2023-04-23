@@ -1,6 +1,14 @@
-from enum import Enum, auto
+# from enum import Enum, auto
+
+
+# class EnvType(Enum):
+#     development = auto()
+#     production = auto()
+
+
+from enum import Enum
 
 
 class EnvType(Enum):
-    development = auto()
-    production = auto()
+    DEVELOPMENT = 'development'
+    PRODUCTION = 'production'
