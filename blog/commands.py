@@ -1,4 +1,3 @@
-
 import click
 from werkzeug.security import generate_password_hash
 
@@ -55,3 +54,4 @@ def create_init_tags():
             db.session.add(Tag(name=item))
         db.session.commit()
     click.echo(f'Created tags: {", ".join(tags)}')
+ 
