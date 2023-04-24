@@ -47,30 +47,6 @@ def register_extensions(app):
         return User.query.get(int(user_id))
 
 
-# def register_api_routes():
-#     from blog.api.tag import TagList
-#     from blog.api.tag import TagDetail
-#     from blog.api.user import UserList
-#     from blog.api.user import UserDetail
-#     from blog.api.author import AuthorList
-#     from blog.api.author import AuthorDetail
-#     from blog.api.article import ArticleList
-#     from blog.api.article import ArticleDetail
-
-#     api.route(TagList, 'tag_list', '/api/tags/', tag='Tag')
-#     api.route(TagDetail, 'tag_detail', '/api/tags/<int:id>', tag='Tag')
-
-#     api.route(UserList, 'user_list', '/api/users/', tag='User')
-#     api.route(UserDetail, 'user_detail', '/api/users/<int:id>', tag='User')
-
-#     api.route(AuthorList, 'author_list', '/api/authors/', tag='Author')
-#     api.route(AuthorDetail, 'author_detail', '/api/authors/<int:id>', tag='Author')
-
-#     api.route(ArticleList, 'article_list', '/api/articles/', tag='Article')
-#     api.route(ArticleDetail, 'article_detail', '/api/articles/<int:id>', tag='Article')
-
-
-
 def register_blueprints(app: Flask):
     from blog.auth.views import auth
     from blog.user.views import user
