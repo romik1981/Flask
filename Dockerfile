@@ -24,6 +24,7 @@ RUN pip install email-validator==1.1.2
 RUN pip install Flask-Admin==1.5.8
 RUN pip install PyYAML==5.4.1
 RUN pip install ComboJSONAPI==1.1.1
+RUN pip install gunicorn==20.1.0
 #--no-cache -r requirements.txt
 
 COPY . .
