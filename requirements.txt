@@ -1,4 +1,4 @@
-pip==23.1.2
+
 alembic==1.10.2
 apispec==4.7.1
 certifi==2022.12.7
