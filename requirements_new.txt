@@ -30,7 +30,6 @@ itsdangerous==1.1.0
 Jinja2==2.11.3
 Mako==1.2.4
 MarkupSafe==2.0.1
-marshmallow==3.2.1
 pkg_resources==0.0.0
 setuptools==44.0.0
 simplejson==3.18.4
