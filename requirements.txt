@@ -1,3 +1,4 @@
+pip==23.1.2
 alembic==1.10.2
 apispec==4.7.1
 certifi==2022.12.7
@@ -24,7 +25,6 @@ Mako==1.2.4
 MarkupSafe==2.0.1
 marshmallow==3.2.1
 marshmallow-jsonapi==0.24.0
-pip==23.1
 pkg_resources==0.0.0
 psycopg2-binary=2.9.5
 python-dotenv==0.17.1
