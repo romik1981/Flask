@@ -53,8 +53,7 @@ pip==23.1.2
 marshmallow-jsonapi==0.24.0
 marshmallow==3.2.1
 pkg_resources==0.0.0
-setuptools==44.0.0
-simplejson==3.18.4
+
 
 
 
