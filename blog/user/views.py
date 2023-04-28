@@ -7,7 +7,7 @@ from blog.extensions import db
 from blog.forms.user import UserRegisterForm
 from blog.models import User
 
-user = Blueprint('user', __name__, url_prefix='/users', static_folder='../static')
+user = Blueprint('user', __name__, url_prefix='/', static_folder='../static')
 
 
 @user.route('register', methods=['GET', 'POST'])
