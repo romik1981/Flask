@@ -24,8 +24,8 @@ Mako==1.2.4
 MarkupSafe==2.0.1
 marshmallow==3.2.1
 marshmallow-jsonapi==0.24.0
-
-
+psycopg2-binary=2.9.5
+pkg_resources==0.0.0
 python-dotenv==0.17.1
 PyYAML==5.4.1
 requests==2.26.0
