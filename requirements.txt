@@ -24,7 +24,7 @@ Mako==1.2.4
 MarkupSafe==2.0.1
 marshmallow==3.2.1
 marshmallow-jsonapi==0.24.0
-
+psycopg2-binary
 
 python-dotenv==0.17.1
 PyYAML==5.4.1
