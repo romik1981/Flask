@@ -82,3 +82,5 @@ pip install Flask - установка пакета Flask
 
 
 update requirements
+
+psycopg2-binary=2.9.5
