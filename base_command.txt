@@ -83,3 +83,5 @@ update requirements.txt
 
 psycopg2-binary=2.9.5
 pkg_resources==0.0.0
+marshmallow-jsonapi==0.24.0
+marshmallow==3.2.1
