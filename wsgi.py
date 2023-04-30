@@ -1,8 +1,12 @@
 from blog.app import create_app
+from flask import redirect
+from blog.models import User
 
 app = create_app()
 
-
+@app.route("/")
+def index():
+    return redirect('/users/')
 
 if __name__ == '__main__':
     
